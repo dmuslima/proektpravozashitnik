@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+.container{
+    margin: 0 auto;
+}
+.header{
+    max-width: 1920px;
+    height: 1006px;
+    background-image: url(photo_2025-02-24_17-25-42.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input-box{
+    width: 1180px;
+    height: 392px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    flex-direction: column;
+    gap: 45px;
+    justify-content: space-between;
+    justify-content: center;
+    padding-top: 42px;
+    display: flex;
+}
+h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+}
+input{
+    width: 362px;
+    height: 50px;
+    border-radius: 9px;
+    border: 1px solid #A1A1A1;
+}
+.input3{
+    width: 749px;
+    height: 81px;
+}
+button{
+    width: 169px;
+    height: 42px;
+    background: linear-gradient(96.12deg, #8fc9fc -21.03%, #6599f2 103.56%);
+    color: white;
+    text-align: center;
+    border-radius: 9px;
+    border: none;
+}
+.inputs{
+    width: 63%;
+    height: 148px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media (max-width:1200px) {
+    .input-box{
+        display: flex;
+        flex-direction: column;
+        width: 635px;
+        height: 401px;
+        background-image: url(Mask\ Group\ \(1\).png);
+        gap: 22px;
+    }
+    input{
+        width: 432px;
+        height: 41px;
+    }
+    .input3{
+        height: 95px;
+    }
+    .inputs{
+        height: 220px;
+    }
+}
+@media (max-width:768px) {
+    .input-box{
+        display: flex;
+        flex-direction: column;
+        width: 635px;
+        height: 401px;
+        background-image: url(Mask\ Group\ \(1\).png);
+        gap: 22px;
+    }
+    input{
+        width: 432px;
+        height: 41px;
+    }
+    .input3{
+        height: 95px;
+    }
+    .inputs{
+        height: 220px;
+    }
+}
+@media (max-width:576px) {
+    .input-box{
+        width: 267px;
+        height: 298px;
+        gap: 19px;
+    }
+    input{
+        width: 212px;
+        height: 20px;
+    }
+    .input3{
+        width: 212px;
+        height: 95px;
+    }
+    h1{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.58px;
+    }
+    button{
+        width: 58px;
+        height: 18px;
+    }
+}
